@@ -37,7 +37,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Creator of the flow?
-        run: "${{github.actor}} initialized the flow."
+        run:  echo "${{github.actor}} initialized the flow."
 
       - name: Debug the github context.
-        run: "${{toJSON(github)}}"
+        run:  echo "${{toJSON(github)}}"
